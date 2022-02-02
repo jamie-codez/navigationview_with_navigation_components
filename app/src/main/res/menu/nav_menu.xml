@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/message"
+        android:title="Message" />
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/mail"
+        android:title="Mail" />
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/fourthFragment"
+        android:icon="@drawable/rss_feed"
+        android:title="Feeds" />
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/rate_us"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/send_feed_back"
+                android:title="Send Feedback" />
+        </menu>
+    </item>
+</menu>
